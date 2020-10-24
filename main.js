@@ -83,3 +83,23 @@ var meses2 = meses.slice(4, 11);
 console.log(meses2);
 
 
+// fourth exercise : If Else
+// a)
+var age = Number (prompt("how old are you?"));
+
+if(age < 2) {
+    alert("baby");
+} else if(age >= 2 && age <= 12) {
+    alert("child");
+} else if(age >= 13 && age <= 19) {
+    alert("teenager");
+} else if(age >= 20 && age <= 30) {
+    alert("young");
+} else if(age >= 31 && age <= 60) {
+    alert("adult");
+} else if(age >= 61 && age <= 75) {
+    alert("Elderly");
+} else {
+    alert("old man");
+};
+
