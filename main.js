@@ -204,10 +204,8 @@ var validate = function(num1) {
 var num1 = parseInt(prompt("choose a first num: "));
 var num2 = parseInt(prompt("choose a second num: "));
 var add = function(num1, num2) {
-    console.log(num1)
     num1 = numValidate(num1);
     num2 = numValidate(num2);
-    console.log(num1)
     return num1 + num2;
 }; 
 
